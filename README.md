@@ -1,6 +1,6 @@
 # sbt
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/sbt)
 
 Scala Built Tool (sbt) on Alpine base
 
