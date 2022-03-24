@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          version: 18.06.0-ce
+          version: 20.10.11
       - run: docker build -t ${CIRCLE_PROJECT_REPONAME} .
       - deploy: 
           command: |
